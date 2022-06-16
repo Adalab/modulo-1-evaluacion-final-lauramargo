@@ -1,60 +1,25 @@
 <!DOCTYPE html>
-<html lang=“es”>
+<html lang="en">
 
 <head>
-  <meta charset=“UTF-8" />
-  <meta name=“viewport” content=“width=device-width, initial-scale=1" />
-  <title>Evaluación final</title>
-  <link href=“https://fonts.googleapis.com/css?family=Roboto&display=swap” rel=“stylesheet” />
-  <link rel=“stylesheet” href=“./assets/css/main.css” />
-  <link rel=“icon” href=“./assets/images/favicon.png” />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css" />
+  <script src="https://kit.fontawesome.com/e62df340f4.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap">
+  <title>Document</title>
 </head>
 
 <body>
 
-  <header class=“header”>
-    <img src=“../images/header.jpg” alt=“image-header”>
-    <i class=“fas fa-bars”></i>
-    <img src=“../images/logo.png” alt=“logo-header”>
-    <h1> Disfruta creando espacios</h1>
-    <button>comprar ahora</button>
-  </header>
-  <main class=“main”>
-    <section class=“first-main”>
-      <h2> Volverse organizado se siente mejor con open spaces</h2>
-      <article class=“”>
-        <img src=“../images/icon_1.png” alt=“image-1-main”>
-        <h3>Lo que necesitas</h3>
-        <p>Una linea de productos diseñados para todos tus espacios</p>
-      </article>
-      <article class=“”>
-        <img src=“../images/icon_2.png” alt=“image-2-main”>
-        <h3>Materias primas sostenibles</h3>
-        <p>Una linea de productos diseñados para todos tus espacios</p>
-      </article>
-      <article class=“”>
-        <img src=“../images/icon_3.png” alt=“image-3-main”>
-        <h3>Guia</h3>
-        <p>Soporte y asesoramiento para ayudarte con tu objetivo</p>
-      </article>
-    </section>
-    <section class=“second-main”>
-      <img src=“../images/icon_4.png” alt=“image-delivery”>
-      <h2>Envío gratis garantizado</h2>
-      <p>Envío gratis en compras desde 100</p>
-      <button>Comprar ahora</button>
-    </section>
-    <section class=“third-main”>
-      <h2>Disfruta creando espacios</h2>
-      <p>Una línea de productos diseñados para todos tus espacios</p>
-      <a href=“https://adalab.es//”>
-        <input type=“button” value=“Comprar ahora”>
-      </a>
-      <img src=“../images/creando-espacios.jpg” alt=“image-bathroom”>
-    </section>
-  </main>
-  <footer class=“footer”>
-  </footer>
+  <include src="./partials/header.html" srcImage="./assets/images/header.jpg"></include>
+  <include src="./partials/header.html" srcImage="./assets/images/logo.png"></include>
+  <include src="./partials/main.html"></include>
+
+  <include src="./partials/footer.html"></include>
+
+
 </body>
 
 </html>
