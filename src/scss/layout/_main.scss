@@ -1,4 +1,18 @@
 .main {
-    background-color: rgb(235, 56, 56);
-
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+.first-main {
+    width: 400px;
+    position: absolute;
+    transform: translateX(900px);
+    font-family: $font-main;
+    color: #0C474B;
+    background-color: $color-bg-3;
+}
+
+.h2-main {}
+
+.first-art-main {}
