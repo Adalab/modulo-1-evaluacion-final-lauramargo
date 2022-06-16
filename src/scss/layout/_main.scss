@@ -1,18 +1,124 @@
 .main {
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+
 }
 
 .first-main {
-    width: 400px;
-    position: absolute;
-    transform: translateX(900px);
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1/11;
+    grid-template-columns: 1fr;
+    width: 100%;
+    position: relative;
+    transform: translateX(800px);
     font-family: $font-main;
     color: #0C474B;
     background-color: $color-bg-3;
+    text-align: center;
 }
 
-.h2-main {}
+.h2-main {
+    font-weight: bold;
+    grid-row: 1;
+}
 
-.first-art-main {}
+
+
+
+.first-art-main {
+    font-family: $font-h2;
+    color: $color;
+    grid-row: 2;
+
+}
+
+.img-main {
+    grid-row: 3;
+}
+
+.h3-main {
+    grid-row: 4;
+}
+
+.second-main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transform: translateX(550px);
+    background-color: $color-bg;
+    width: 400px;
+    height: 400px;
+    color: $color-secundary;
+}
+
+.img-second-main {
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.h2-second-main {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.p-second-main {
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.button-second-main {
+    color: $color-secundary;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.third-main {
+
+    background-color: $color-bg-3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $color;
+}
+
+.h2-third-main {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 150px;
+}
+
+.p-third-main {
+    text-align: center;
+    color: $color;
+    padding-top: 40px;
+    width: 20%;
+}
+
+.button-third-main {
+    background-color: $color;
+    color: $color-secundary;
+    margin-top: 40px;
+}
+
+.button-third-main:hover {
+    background-color: aquamarine;
+    color: #0C474B;
+}
+
+.container-img-third-main {
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.img-third-main {
+    width: 450px;
+    height: 400px;
+}
