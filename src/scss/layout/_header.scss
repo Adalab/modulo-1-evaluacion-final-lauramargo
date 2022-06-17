@@ -17,10 +17,6 @@
     position: absolute;
     top: 20px;
 
-    @media all and(min-width:900px) {}
-
-
-
 }
 
 .img-logo {
@@ -43,18 +39,21 @@
 
     @media all and(min-width:1728px) {
         display: none;
+
     }
 
 
 
 }
 
-.option .link {
+.menu-items {
     text-decoration: none;
     color: $color;
     display: none;
 
-    @media all and(min-width:1728px) {}
+    @media all and(min-width:1728px) {
+        display: block;
+    }
 }
 
 .text-header {

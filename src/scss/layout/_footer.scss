@@ -14,8 +14,6 @@
     color: $color-secundary;
     font-family: $font-h2;
 
-
-
 }
 
 .footer-nav {
@@ -64,7 +62,7 @@
         padding-left: 40px;
     }
 
-    @media all and (min-width: 900px) {
+    @media all and (min-width: 1728px) {
         padding-right: 300px;
         padding-left: 300px;
     }
@@ -125,12 +123,10 @@
     height: 40px;
 
     @media all and (min-width: 900px) {
-        right: -300;
-
-
+        left: -300;
     }
 
     @media all and (min-width: 900px) {
-        right: -400px;
+        left: 450px;
     }
 }
