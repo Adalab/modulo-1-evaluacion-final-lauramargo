@@ -24,10 +24,16 @@
 .h2-main {
     font-size: 24px;
     font-weight: bold;
-    padding-top: 40px;
+    padding-top: 20px;
     grid-column: 1/4;
 
 
+}
+
+.first-art-main {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 
@@ -35,10 +41,19 @@
     font-size: 24px;
     font-weight: bold;
     padding-top: 40px;
+    padding-left: 20px;
+
+
 }
 
 .p-main {
     padding-top: 40px;
+}
+
+.main-materials {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .h3-main-materials {
@@ -49,6 +64,12 @@
 
 .p-main-materials {
     padding-top: 40px;
+}
+
+.third-article-main {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .h3-main-suport {

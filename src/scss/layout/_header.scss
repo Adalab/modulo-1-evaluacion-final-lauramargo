@@ -12,20 +12,20 @@
 }
 
 .logo-header {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     position: absolute;
-    transform: translateY(-200px);
+    top: 20px;
 
-    @media all and(min-width:900px) {
-        transform: translateY(-800px);
-    }
+    @media all and(min-width:900px) {}
+
 
 
 }
 
 .img-logo {
     width: 100%;
+
 }
 
 .menu-header {
