@@ -32,15 +32,13 @@
     top: 30px;
     position: fixed;
     flex-direction: column;
-    transform: translateY(-100px);
+
     z-index: 1;
 
-    @media all and(min-width:900px) {
-        transform: translateX(-400px);
+    @media all and(min-width:900px) {}
 
-
-    }
-
+    top: 20px;
+    left: 20px;
 
 }
 

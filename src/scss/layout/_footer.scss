@@ -9,17 +9,20 @@
     color: $color-secundary;
     font-family: $font-h2;
 
-    @media all and (min-width: 900px) {
-        flex-direction: row;
 
-
-    }
 
 }
 
 .footer-nav {
     transform: translateX(20px);
     display: flex;
+    flex-direction: column;
+
+    @media all and (min-width: 900px) {
+        flex-direction: row;
+
+
+    }
 
 }
 
@@ -60,7 +63,7 @@
 
 .contact {
     padding-top: 20px;
-    padding-left: 20px;
+
 
 }
 
