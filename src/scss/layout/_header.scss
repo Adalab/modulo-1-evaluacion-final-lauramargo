@@ -54,7 +54,7 @@
         flex-direction: row;
         position: absolute;
         top: 50px;
-        left: 70px;
+        left: 150px;
 
     }
 }
@@ -62,6 +62,11 @@
 .link {
     text-decoration: none;
     color: $color;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: $font-bold;
+
 
 }
 
