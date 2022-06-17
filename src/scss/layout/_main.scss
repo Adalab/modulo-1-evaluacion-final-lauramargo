@@ -129,13 +129,24 @@
     justify-content: center;
     align-items: center;
     color: $color;
+
+    @media all and (min-width: 1728px) {
+        padding-top: 0;
+
+    }
+
 }
+
 
 .h2-third-main {
     text-align: center;
     font-weight: bold;
     font-size: 24px;
     padding-top: 150px;
+
+
+
+
 }
 
 .p-third-main {
@@ -143,12 +154,15 @@
     color: $color;
     padding-top: 40px;
     width: 100%;
+
+
 }
 
 .button-third-main {
     background-color: $color;
     color: $color-secundary;
     margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 .button-third-main:hover {
@@ -159,10 +173,20 @@
 .container-img-third-main {
     width: 100%;
     text-align: center;
-    padding-top: 60px;
+
+
+    @media all and (min-width: 1728px) {
+        padding-top: 0;
+
+    }
+
+
+
 }
 
 .img-third-main {
     width: 100%;
     height: 100%;
+
+
 }

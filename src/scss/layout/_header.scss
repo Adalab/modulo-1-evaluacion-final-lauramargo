@@ -32,14 +32,29 @@
     top: 30px;
     position: fixed;
     flex-direction: column;
-
+    top: 10px;
+    left: 20px;
     z-index: 1;
 
-    @media all and(min-width:900px) {}
+    @media all and(min-width:900px) {
+        top: 20px;
+        left: 20px;
+    }
 
-    top: 20px;
-    left: 20px;
+    @media all and(min-width:1728px) {
+        display: none;
+    }
 
+
+
+}
+
+.option .link {
+    text-decoration: none;
+    color: $color;
+    display: none;
+
+    @media all and(min-width:1728px) {}
 }
 
 .text-header {
