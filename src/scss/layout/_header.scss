@@ -41,9 +41,6 @@
         display: none;
 
     }
-
-
-
 }
 
 .menu-items {
@@ -51,10 +48,23 @@
     color: $color;
     display: none;
 
+
     @media all and(min-width:1728px) {
-        display: block;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 50px;
+        left: 70px;
+
     }
 }
+
+.link {
+    text-decoration: none;
+    color: $color;
+
+}
+
 
 .text-header {
     position: relative;
