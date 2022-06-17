@@ -11,10 +11,23 @@
 
 }
 
+.footer-nav {
+    transform: translateX(20px);
+}
+
+.store {
+    padding-top: 20px;
+}
+
 .store .footer-link {
 
     color: $color-secundary;
     text-decoration: none;
+}
+
+.us {
+    padding-top: 20px;
+
 }
 
 .us .footer-link {
@@ -23,14 +36,28 @@
     text-decoration: none;
 }
 
+
+
+.contact {
+    padding-top: 20px;
+}
+
 .contact .footer-link {
     color: $color-secundary;
     text-decoration: none;
+
+}
+
+.rrss {
+    padding-top: 20px;
 }
 
 .arrow .footer-link {
     color: $color-secundary;
-    text-align: center;
     text-decoration: none;
 
+}
+
+.arrow {
+    transform: translateX(150px)
 }
