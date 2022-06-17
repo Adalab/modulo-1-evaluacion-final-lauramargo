@@ -5,7 +5,7 @@
 
 .footer {
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-color: $color-bg-2;
     display: flex;
     flex-direction: column;
@@ -37,6 +37,7 @@
 .store {
     padding-top: 20px;
     padding-right: 20px;
+    line-height: 2;
 
 
 }
@@ -52,10 +53,12 @@
 .ul-us {
     font-weight: bold;
     padding-bottom: 10px;
+
 }
 
 .us {
     padding-top: 20px;
+    line-height: 2;
 
     @media all and (min-width: 900px) {
         padding-right: 40px;
@@ -89,6 +92,7 @@
 
 .contact {
     padding-top: 20px;
+    line-height: 2;
 
 
 }
@@ -116,17 +120,17 @@
 .arrow {
 
     position: relative;
-    bottom: -60px;
-    right: -100px;
+    bottom: -10px;
+    right: -200px;
     z-index: 999;
     width: 30px;
     height: 40px;
 
     @media all and (min-width: 900px) {
-        left: -300;
+        left: -400;
     }
 
-    @media all and (min-width: 900px) {
-        left: 450px;
+    @media all and (min-width: 1728px) {
+        left: 650px;
     }
 }
