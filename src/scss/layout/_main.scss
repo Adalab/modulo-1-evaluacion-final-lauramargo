@@ -5,48 +5,62 @@
 
 .first-main {
     width: 100%;
+    height: 1000px;
     display: grid;
     grid-template-rows: 1/11;
     grid-template-columns: 1fr;
     width: 100%;
     position: relative;
-    transform: translateX(800px);
-    font-family: $font-main;
+    font-family: $font-h2;
     color: #0C474B;
     background-color: $color-bg-3;
     text-align: center;
 }
 
 .h2-main {
+    font-size: 24px;
     font-weight: bold;
-    grid-row: 1;
-}
-
-
-
-
-.first-art-main {
-    font-family: $font-h2;
-    color: $color;
-    grid-row: 2;
-
-}
-
-.img-main {
-    grid-row: 3;
+    padding-top: 40px;
 }
 
 .h3-main {
-    grid-row: 4;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.p-main {
+    padding-top: 40px;
+}
+
+.h3-main-materials {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.p-main-materials {
+    padding-top: 40px;
+}
+
+.h3-main-suport {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.p-main-suport {
+    padding-top: 40px;
 }
 
 .second-main {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    transform: translateX(550px);
     background-color: $color-bg;
-    width: 400px;
+    width: 100%;
     height: 400px;
     color: $color-secundary;
 }
@@ -56,6 +70,7 @@
     text-align: center;
     padding-top: 60px;
 }
+
 
 .h2-second-main {
     text-align: center;
@@ -70,6 +85,8 @@
     padding-top: 10px;
 
 }
+
+
 
 .button-second-main {
     color: $color-secundary;
@@ -98,7 +115,7 @@
     text-align: center;
     color: $color;
     padding-top: 40px;
-    width: 20%;
+    width: 100%;
 }
 
 .button-third-main {
