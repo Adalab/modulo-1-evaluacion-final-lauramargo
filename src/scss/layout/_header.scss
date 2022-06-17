@@ -18,9 +18,10 @@
     transform: translateY(-200px);
 
     @media all and(min-width:900px) {
-
-        transform: translateY(-500px);
+        transform: translateY(-800px);
     }
+
+
 }
 
 .img-logo {
@@ -28,6 +29,7 @@
 }
 
 .menu-header {
+    top: 30px;
     position: fixed;
     flex-direction: column;
     transform: translateY(-100px);

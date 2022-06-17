@@ -9,14 +9,24 @@
     color: $color-secundary;
     font-family: $font-h2;
 
+    @media all and (min-width: 900px) {
+        flex-direction: row;
+
+
+    }
+
 }
 
 .footer-nav {
     transform: translateX(20px);
+    display: flex;
+
 }
 
 .store {
     padding-top: 20px;
+    padding-right: 20px;
+
 }
 
 .store .footer-link {
@@ -28,6 +38,11 @@
 .us {
     padding-top: 20px;
 
+    @media all and (min-width: 900px) {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
 }
 
 .us .footer-link {
@@ -36,26 +51,40 @@
     text-decoration: none;
 }
 
+.rrss {
+    padding-top: 20px;
+
+}
+
 
 
 .contact {
     padding-top: 20px;
+    padding-left: 20px;
+
 }
+
+
 
 .contact .footer-link {
     color: $color-secundary;
     text-decoration: none;
 
+
 }
 
-.rrss {
-    padding-top: 20px;
-}
+
+
 
 .arrow .footer-link {
     color: $color-secundary;
     text-decoration: none;
 
+    @media all and (min-width: 900px) {
+        position: relative;
+        bottom: -40px;
+        right: -250px;
+    }
 }
 
 .arrow {
