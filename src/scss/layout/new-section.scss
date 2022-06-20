@@ -1,0 +1,30 @@
+.new {
+    width: 100%;
+    background-color: $color-bg-2;
+    text-transform: capitalize;
+    color: $color-secundary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    @media all and(min-width:900px) {
+        flex-direction: row;
+        background-color: $color-bg;
+    }
+}
+
+.h2-new {
+    @media all and(min-width:900px) {
+        padding-left: 20px;
+    }
+}
+
+.p-new {
+    @media all and(min-width:900px) {
+        padding-right: 20px;
+    }
+}
+
+©
